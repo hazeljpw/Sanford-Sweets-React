@@ -12,8 +12,72 @@ body {
 
 .navbar {
   background-color: rgba(19, 15, 15, 0.797);
-  margin-bottom: 2rem;
-  min-height: 4cqw;
-  font-size: large;
-  color: azure;
+  margin: 0;
+  min-height: 30px;
+  padding: 5px 15px;
 }
+
+.site-footer {
+  background-color: rgba(19, 15, 15, 0.797);
+  padding: 10px 0;
+  margin-top: 4%;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  color: goldenrod;
+}
+
+.custom-link {
+  color: white;
+  text-decoration: none; /* To remove the underline from the links */
+}
+
+.custom-link:hover {
+  color: goldenrod;
+}
+
+/* Header.css */
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: white;
+  /* Set the font color to white */
+  font-size: 15px; 
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  color: goldenrod;
+}
+
+.carousel > .carousel-inner > .carousel-item > img{
+  width:250px;
+  height:900px;
+}
+
+.custom-AllergenCard {
+    background-color: rgba(19, 15, 15, 0.797);;
+    margin: 0 auto; 
+    margin-top: 40px;
+    float: none; 
+    margin-bottom: 10px; 
+    color: white;
+    border-color: goldenrod;
+    padding: 20px;
+}
+
+.custom-introCard {
+  background-color: rgba(19, 15, 15, 0.797);
+  margin-right: 2%;
+  margin-top: 40px;
+  float: none;
+  margin-bottom: 10px;
+  color: white;
+  border-color: goldenrod;
+  padding: 10px;
+  width: 500px;
+  height: 220px;
+  left: 40%;
+  transform: translateX(-50%);
+}
+
+
