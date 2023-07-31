@@ -17,6 +17,22 @@ body {
   padding: 5px 15px;
 }
 
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: white;
+  font-size: 15px; 
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  color: goldenrod;
+}
+
+.carousel > .carousel-inner > .carousel-item > img{
+  width:250px;
+  height:900px;
+}
+
 .site-footer {
   background-color: rgba(19, 15, 15, 0.797);
   padding: 10px 0;
@@ -36,23 +52,6 @@ body {
   color: goldenrod;
 }
 
-/* Header.css */
-.custom-navbar .navbar-brand,
-.custom-navbar .nav-link {
-  color: white;
-  /* Set the font color to white */
-  font-size: 15px; 
-}
-
-.custom-navbar .nav-link:hover,
-.custom-navbar .nav-link.active {
-  color: goldenrod;
-}
-
-.carousel > .carousel-inner > .carousel-item > img{
-  width:250px;
-  height:900px;
-}
 
 .custom-AllergenCard {
     background-color: rgba(19, 15, 15, 0.797);;
@@ -76,8 +75,7 @@ body {
   padding: 10px;
   width: 500px;
   height: 220px;
-  left: 40%;
-  transform: translateX(-50%);
+  left: 1%
 }
 
 

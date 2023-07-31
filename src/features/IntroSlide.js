@@ -5,7 +5,7 @@ import flour from '../app/assets/images/flour.jpg'
 function IntroSlide() {
   return (
     <div className="container">
-            <div className="col-sm-6 mx-auto p-3">
+            <div className="col-sm-8 mx-auto p-3">
                 <Carousel className="carousel slide carousel-fade">
                     <Carousel.Item>
                         <img className="d-block w-100" src={coffee} alt="Sprinkled-flour" />

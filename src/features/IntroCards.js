@@ -1,12 +1,12 @@
-import { Row } from 'react-bootstrap';
+import { CardGroup, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 function BasicExample() {
   return (
         <>
-            <Row className='text-center'>
-            <Card className='custom-introCard col-md-2'>
+            <Row className='text-center justify-content-center'>
+            <Card className='custom-introCard'>
             <Card.Body>
                 <Card.Title>Chocolate Crinkles Cookies</Card.Title>
                 <Card.Text>
@@ -15,7 +15,7 @@ function BasicExample() {
                 <Button variant='outline-warning'>Explore</Button>
             </Card.Body>
             </Card>
-            <Card className='custom-introCard col-md-2'>
+            <Card className='custom-introCard'>
             <Card.Body>
                 <Card.Title>Coffee</Card.Title>
                 <Card.Text>
