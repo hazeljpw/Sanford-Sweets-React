@@ -32,7 +32,7 @@ const Footer = () => {
           <Col xs={12} sm={4} md={2} className="text-center">
             <br />
             <a role='button' className='custom-link' href='mailto:notreal@notreal.co'>
-              <i className='fa fa-envelope-o' /> sanfordsweets@outlook.com
+              <i className='fa fa-envelope-o'/>sanfordsweets@outlook.com
             </a>
           </Col>
         </Row>
