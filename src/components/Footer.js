@@ -8,9 +8,9 @@ const Footer = () => {
           <Col xs={10} sm={4} md={3}>
                   <ul className="list-unstyled">
                       <li><a href="/" className="custom-link">Home</a></li>
-                      <li><a href="/" className="custom-link">Order Now</a></li>
-                      <li><a href="/" className="custom-link">About Us</a></li>
-                      <li><a href="/" className="custom-link">Contact Us</a></li>
+                      <li><a href="/order" className="custom-link">Order Now</a></li>
+                      <li><a href="/about" className="custom-link">About Us</a></li>
+                      <li><a href="/contact" className="custom-link">Contact Us</a></li>
                   </ul>
           </Col>
           <Col xs={10} sm={3} md={3} className='text-center'>
