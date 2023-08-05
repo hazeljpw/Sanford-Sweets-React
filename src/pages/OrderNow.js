@@ -1,5 +1,9 @@
+import Products from '../features/Products'
+
 const OrderNow =() => {
-    return <div>Order Now</div>
+    return (
+        <Products />
+    )
 }
 
 export default OrderNow;
