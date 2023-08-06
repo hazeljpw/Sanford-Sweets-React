@@ -37,6 +37,15 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
+
+      <br/>
+
+      <Container className='text-center text-white '>
+            <p className='text-center'><strong>COPYRIGHT © 2023 SANFORD SWEETS - ALL RIGHTS RESERVED</strong></p>
+
+            <p>The content, images, and items featured on this website are used solely for the purpose of the project and educational demonstration. We do not claim ownership of any images or items displayed on this website, and no monetization is intended or derived from their use. This website and its contents are not intended for commercial use or profit, and they are purely for educational and project purposes. Any resemblance to real products, services, or entities is purely coincidental. If you are the owner of any copyrighted material displayed on this website and wish to have it removed, please contact us, and we will promptly address your concerns.</p>
+          
+        </Container>
     </footer>
   );
 };

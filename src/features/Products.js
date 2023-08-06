@@ -16,41 +16,40 @@ function ProductItem() {
     const products = [
         {
             title: 'Chocolate Crinkles',
-            subtitle: 'Made with regular flour, all time favorite!',
+            subtitle: 'Powdered sugar-dusted cookies with a fudgy interior, boasting a delightful balance of rich cocoa flavors and irresistible sweetness.',
             imageSrc: crinkles,
             price: '$10.00',
         },
         {
-            title: 'Brazil: CHC Reserve Expresso',
-            subtitle: 'CHC Espresso is a perfect single shot espresso rich in flavors with a hint of caramelized pecan on the finish.',
+            title: 'Brazil Expresso',
+            subtitle: 'Espresso embodies the perfection of a single shot espresso, brimming with intricate flavors and a subtle note of caramelized pecan..',
             imageSrc: coffee2,
             price: '$15.00',
         },
         {
-            title: 'Colombia: El Gato Supremo',
-            subtitle: 'Silky, smooth mouth feel, mild acidity, notes of sweet orange, slight nutty almond and sweet vanilla finish.Made with regular flour, all time favorite!',
+            title: 'Colombia Supremo',
+            subtitle: 'Smooth texture, gentle acidity, delightful orange sweetness, subtle undertones of nutty almond, and a satisfyingly sweet vanilla finish.',
             imageSrc: coffee3,
             price: '$15.00',
         },
         {
-            title: 'Mexico Organic Mocabe HG',
-            subtitle: 'Cups with notes of dark chocolate, a slight citrus sweetness, some nuttiness and a well-rounded body.',
+            title: 'Mexico Mocabe HG',
+            subtitle: 'A rich dark chocolate notes, subtle touch of citrusy sweetness, hints of nuttiness, all culminating in a harmoniously balanced body.',
             imageSrc: coffee4,
             price: '$15.00',
         },
         {
-            title: 'Jamaica: Blue Mountains',
-            subtitle: 'Aromas and flavors of chocolate with blackberries, and currant with a smooth velvety body, and mild acidity.',
+            title: 'Jamaica Blue Mountains',
+            subtitle: 'Notes of chocolate with blackberries and currants, accompanied by a smooth and velvety body, complemented by a gentle, mild acidity.',
             imageSrc: coffee5,
             price: '$15.00',
         },
         {
-            title: 'Costa Rica: La Gladiola',
-            subtitle: 'La Gladiola exhibits a wonderful acidity, good body with some citrus cocoa notes.',
+            title: 'Costa Rica La Gladiola',
+            subtitle: 'Offers a gratifying heft on the palate, enhancing the overall sense of fulfillment during your coffee journey.',
             imageSrc: coffee6,
             price: '$15.00',
         },
-        // Add more products here...
     ];
 
     return (

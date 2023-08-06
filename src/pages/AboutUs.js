@@ -1,5 +1,9 @@
+import AboutAccordion from "../features/AboutAccordion";
+
 const AboutUs = () => {
-    return <div>AboutUs</div>
+    return (
+        <AboutAccordion />
+    )
 }
 
 export default AboutUs;
