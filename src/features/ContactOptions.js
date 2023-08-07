@@ -1,5 +1,3 @@
-import { Container } from "reactstrap";
-
 function ContactOptions () {
     return (
         <>
