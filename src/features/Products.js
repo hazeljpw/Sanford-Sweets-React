@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import crinkles from '../app/assets/images/crinkles.jpg'
 import coffee2 from '../app/assets/images/coffee2.jpg'
 import coffee3 from '../app/assets/images/coffee3.jpg'
@@ -7,11 +6,6 @@ import coffee5 from '../app/assets/images/coffee5.jpg'
 import coffee6 from '../app/assets/images/coffee6.jpg'
 
 function ProductItem() {
-    const [cart, setCart] = useState([]);
-
-    const addToCart = (item) => {
-        setCart([...cart, item]);
-    };
 
     const products = [
         {
