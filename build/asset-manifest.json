@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b3bddaf.css",
+    "main.js": "/static/js/main.2824a727.js",
+    "static/js/787.379d997a.chunk.js": "/static/js/787.379d997a.chunk.js",
+    "static/media/coffee4.jpg": "/static/media/coffee4.1843fb0326d6755d751d.jpg",
+    "static/media/coffee2.jpg": "/static/media/coffee2.6cae9b750cf7b97aa95a.jpg",
+    "static/media/flour.jpg": "/static/media/flour.bc081927c55133925f7f.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/coffee5.jpg": "/static/media/coffee5.5cc46d1d7030b10e23a6.jpg",
+    "static/media/crinkles.jpg": "/static/media/crinkles.942393357f7d0598ed58.jpg",
+    "static/media/coffee3.jpg": "/static/media/coffee3.30b171ee0e9fb11ad3b4.jpg",
+    "static/media/coffee6.jpg": "/static/media/coffee6.14e175b6d89c26e174b9.jpg",
+    "static/media/coffee.jpg": "/static/media/coffee.f34ecc8ea836054aec4d.jpg",
+    "static/media/logo.png": "/static/media/logo.40a4eb1537c0a55b4445.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/index.html",
+    "main.0b3bddaf.css.map": "/static/css/main.0b3bddaf.css.map",
+    "main.2824a727.js.map": "/static/js/main.2824a727.js.map",
+    "787.379d997a.chunk.js.map": "/static/js/787.379d997a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b3bddaf.css",
+    "static/js/main.2824a727.js"
+  ]
+}
