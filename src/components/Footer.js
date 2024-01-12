@@ -15,16 +15,16 @@ const Footer = () => {
           </Col>
           <Col xs={10} sm={3} md={3} className='text-center'>
             <div className='d-flex justify-content-center'>
-              <a className='btn btn-social-icon btn-outline-warning mr-2' href='http://instagram.com/' target="_blank">
+              <a className='btn btn-social-icon btn-outline-warning mr-2' href='http://instagram.com/' target="_blank" rel="noopener noreferrer">
                 <i className='fa fa-instagram' />
               </a>
-              <a className='btn btn-social-icon btn-outline-warning mr-2' href='http://www.facebook.com/' target="_blank">
+              <a className='btn btn-social-icon btn-outline-warning mr-2' href='http://www.facebook.com/' target="_blank" rel="noopener noreferrer">
                 <i className='fa fa-facebook' />
               </a>
-              <a className='btn btn-social-icon btn-outline-warning mr-2' href='http://twitter.com/' target="_blank">
+              <a className='btn btn-social-icon btn-outline-warning mr-2' href='http://twitter.com/' target="_blank" rel="noopener noreferrer">
                 <i className='fa fa-twitter' />
               </a>
-              <a className='btn btn-social-icon btn-outline-warning' href='http://youtube.com/' target="_blank">
+              <a className='btn btn-social-icon btn-outline-warning' href='http://youtube.com/' target="_blank" rel="noopener noreferrer">
                 <i className='fa fa-youtube' />
               </a>
             </div>
