@@ -54,6 +54,7 @@ function ProductItem() {
 
     return (
         <section className="container content-section mt-5">
+            <h2 className='text-center'>Connect with us on our <a href="https://www.facebook.com/groups/3623597347855866l" className='facebookLink' target="_blank" rel="noopener noreferrer">facebook</a> page to order.</h2>
             <div className="shop-items">
                 {products.map((product, index) => (
                     <div className="shop-item" key={index}>
@@ -62,13 +63,6 @@ function ProductItem() {
                         <img className="shop-item-image" src={product.imageSrc} height="200" alt="Product" />
                         <div className="shop-item-details">
                             <span className="shop-item-price">{product.price}</span>
-                            <button
-                                className="btn btn-outline-warning shop-item-button"
-                                type="button"
-                                onClick={() => addToCart(product)}
-                            >
-                                ADD TO CART
-                            </button>
                         </div>
                     </div>
                 ))}

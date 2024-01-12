@@ -30,7 +30,7 @@ const AboutAccordion = () => {
   };
 
   return (
-    <Container mt-5>
+    <Container className='accordionContainer'>
         <div class="text-white ml-4 mt-5">
             <h5>Sanford Sweet is located in the Sanford, Florida. We are currently delivering all products wth no additional charges in Central Florida locations.</h5>
         </div>

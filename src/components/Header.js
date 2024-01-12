@@ -18,7 +18,6 @@ const Header = () => {
                   <Nav.Link as={NavLink} to='/' className='px-4 fa fa-home fa-lg'> Home</Nav.Link>
                   <Nav.Link as={NavLink} to='/order' className='px-4 fa fa-cart-plus fa-lg'> Order Now</Nav.Link>
                   <Nav.Link as={NavLink} to='/about' className='px-4 fa fa-list-alt fa-lg'> About Us</Nav.Link>
-                  <Nav.Link as={NavLink} to='/contact' className='px-4 fa fa-address-card fa-lg'> Contact Us</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>

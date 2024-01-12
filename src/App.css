@@ -39,14 +39,12 @@ body {
 
 .custom-AllergenCard {
   background-color: rgba(19, 15, 15, 0.797);;
-  margin: 0 auto; 
+  margin: 5%; 
   margin-top: 40px;
-  float: none; 
+  padding: 2%;
   margin-bottom: 10px; 
   color: white;
   border-color: goldenrod;
-  padding: 20px;
-  width: 500px;
 
 }
 
@@ -115,10 +113,12 @@ left: 1%
 
 .shop-item-title {
   margin-top: 30px;
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: bold;
   text-align: center;
   height: 50px;
-  overflow: hidden; }
+  overflow: hidden; 
+  color: goldenrod;}
 
 .shop-item-sub-title {
   margin-top: 10px;
@@ -152,4 +152,13 @@ left: 1%
 .custom-accordion{
   background-color: black;
   color: gold; 
+}
+
+
+.accordionContainer{
+  margin-bottom: 22%; /* to keep the footer of AboutUs page at the bottom */
+}
+
+.facebookLink{
+  color: goldenrod;
 }
