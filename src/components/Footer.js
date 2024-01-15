@@ -7,9 +7,9 @@ const Footer = () => {
         <Row className='align-items-center justify-content-center text-center'>
           <Col xs={10} sm={4} md={3}>
                   <ul className="list-unstyled">
-                      <li><a href="/" className="custom-link">Home</a></li>
-                      <li><a href="/order" className="custom-link">Order Now</a></li>
-                      <li><a href="/about" className="custom-link">About Us</a></li>
+                      <li><a href="/" rel="noopener noreferrer" className="custom-link">Home</a></li>
+                      <li><a href="/order" rel="noopener noreferrer" className="custom-link">Order Now</a></li>
+                      <li><a href="/about" rel="noopener noreferrer" className="custom-link">About Us</a></li>
                   </ul>
           </Col>
           <Col xs={10} sm={3} md={3} className='text-center'>
