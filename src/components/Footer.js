@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -7,9 +8,9 @@ const Footer = () => {
         <Row className='align-items-center justify-content-center text-center'>
           <Col xs={10} sm={4} md={3}>
                   <ul className="list-unstyled">
-                      <li><a href="/" className="custom-link">Home</a></li>
-                      <li><a href="/order" className="custom-link">Order Now</a></li>
-                      <li><a href="/about" className="custom-link">About Us</a></li>
+                      <li><Link to="/" className="custom-link">Home</Link></li>
+                      <li><Link to="/order" className="custom-link">Order Now</Link></li>
+                      <li><Link to="/about" className="custom-link">About Us</Link></li>
                   </ul>
           </Col>
           <Col xs={10} sm={3} md={3} className='text-center'>
